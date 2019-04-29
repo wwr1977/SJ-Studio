@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{595835b0-1e31-48c2-8371-465f2ff09a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{ebd1150d-b93a-4690-b35a-534aba181c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{5bf68833-7a98-4215-b38b-18e0434481eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{d83b9bb1-63a9-4b43-b29b-f645df1a106a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GlobalFunc">
+      <UniqueIdentifier>{65b43268-c6ca-498b-9678-9216bb547fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Standard">
+      <UniqueIdentifier>{27a750f3-7519-4bfa-9986-6751cc93ff3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Core">
+      <UniqueIdentifier>{e72a0f7a-52cd-4e5c-87e9-c9b093f9dd28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\SPTR">
+      <UniqueIdentifier>{f2560596-c048-4dec-b168-b8ff7f6f2a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Precom">
+      <UniqueIdentifier>{10cb29c0-f539-4b02-970b-688e4a5dffa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\User">
+      <UniqueIdentifier>{2928a72c-d21a-465d-84c2-2a24a70f587c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\User\SubUserHeader">
+      <UniqueIdentifier>{48fc59a8-69cd-4f85-87dc-4477d862d485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ObjectBase">
+      <UniqueIdentifier>{4fc72a76-6574-4ec3-9928-326634cd8ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ActObject">
+      <UniqueIdentifier>{ca5aa099-5dcf-451d-8264-e22b7dbfca5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ActObject\Component">
+      <UniqueIdentifier>{cc2929f6-3b86-4234-8e75-556a298231f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ActObject\Component\BaseCom">
+      <UniqueIdentifier>{ebe6e603-a3f2-4f3e-9810-ad62fe71bfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ActObject\Component\Standard">
+      <UniqueIdentifier>{2ca2266e-bd59-402a-8a44-e59db1ccccb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ActObject\Component\Renderer">
+      <UniqueIdentifier>{f29ef483-b288-4e65-bb2b-d6eba45b5e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ActObject\Component\Logic">
+      <UniqueIdentifier>{30fc56d3-5038-44c9-b854-5270f4d7fac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window">
+      <UniqueIdentifier>{fe368c14-bcaa-4630-a3be-1ca56664ebbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\Device">
+      <UniqueIdentifier>{ebeeb8e3-86d4-4753-bd4f-219934af2903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\ResourceMgr">
+      <UniqueIdentifier>{99034746-352f-40dc-a126-27130274579f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\ResourceMgr\Resource">
+      <UniqueIdentifier>{2ad954fd-e9b9-402c-88a2-dae39d5ec6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\ResourceMgr\Resource\Image">
+      <UniqueIdentifier>{f68d5b91-70c5-40af-8295-3e4bb1db9b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\ResourceMgr\Resource\Sound">
+      <UniqueIdentifier>{dc3790a9-c56d-4925-b8f1-6cf48c42bea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\Scene">
+      <UniqueIdentifier>{da931cd5-6917-4adc-a256-8d7011ceefcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\Scene\SceneBuilder">
+      <UniqueIdentifier>{3a9bef9c-e7b5-46a4-8986-092da7c4c0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\Scene\SceneRenderMgr">
+      <UniqueIdentifier>{f48cb56f-a80d-4df2-bfac-e43eb087e31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\Scene\SceneCollisionMgr">
+      <UniqueIdentifier>{9909a8f7-6261-46a6-a1a7-0474a6906557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ActObject\Component\Standard\OrthoCam">
+      <UniqueIdentifier>{0af7e457-6a84-440d-b43f-a67829756213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ActObject\Component\Standard\PerspectiveCam">
+      <UniqueIdentifier>{c7eaa404-776d-4b7d-8f7b-493361cbaf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\DebugMgr">
+      <UniqueIdentifier>{b9243c10-fa85-4907-b7d5-f361aa7e55f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Window\ResourceMgr\Resource\Font">
+      <UniqueIdentifier>{5dfea09e-7f5e-4b70-b2c9-81f61ac6c538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Thread">
+      <UniqueIdentifier>{615e473f-c411-4ac7-b364-b00ace719922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unity_Build">
+      <UniqueIdentifier>{94d2d023-8af1-45a0-ae57-37786ac74865}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX9Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreBuilder.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionFunc.h">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePathMgr.h">
+      <Filter>Manager\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Manager\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="ResolutionMgr.h">
+      <Filter>Manager\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerMgr.h">
+      <Filter>Manager\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowMgr.h">
+      <Filter>Manager\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SPTR.h">
+      <Filter>Header\SPTR</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header\Precom</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDefine.h">
+      <Filter>Header\User\SubUserHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="UserEnum.h">
+      <Filter>Header\User\SubUserHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="UserGlobalVar.h">
+      <Filter>Header\User\SubUserHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMacro.h">
+      <Filter>Header\User\SubUserHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStruct.h">
+      <Filter>Header\User\SubUserHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTemplate.h">
+      <Filter>Header\User\SubUserHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTypedef.h">
+      <Filter>Header\User\SubUserHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="UserHeader.h">
+      <Filter>Header\User</Filter>
+    </ClInclude>
+    <ClInclude Include="AniRenderer.h">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="FixRenderer.h">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="TransForm.h">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCom.h">
+      <Filter>Object\ActObject\Component\BaseCom</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMgr.h">
+      <Filter>Object\ActObject\Component\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>Object\ActObject\Component\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>Object\Window\ResourceMgr\Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMesh.h">
+      <Filter>Object\Window\ResourceMgr\Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMultiSprite.h">
+      <Filter>Object\Window\ResourceMgr\Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>Object\Window\ResourceMgr\Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTexture.h">
+      <Filter>Object\Window\ResourceMgr\Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgr.h">
+      <Filter>Object\Window\ResourceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBase.h">
+      <Filter>Object\ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GDevice.h">
+      <Filter>Object\Window\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Object\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBuilder.h">
+      <Filter>Object\Window\Scene\SceneBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCollisionMgr.h">
+      <Filter>Object\Window\Scene\SceneCollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRenderMgr.h">
+      <Filter>Object\Window\Scene\SceneRenderMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Object\Window\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ActObject.h">
+      <Filter>Object\ActObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Object\ActObject\Component\Standard\OrthoCam</Filter>
+    </ClInclude>
+    <ClInclude Include="PersCamera.h">
+      <Filter>Object\ActObject\Component\Standard\PerspectiveCam</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMgr.h">
+      <Filter>Object\Window\DebugMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFont.h">
+      <Filter>Object\Window\ResourceMgr\Resource\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="GameString.h">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="SJRandom.h">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="SJMath.h">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMgr.h">
+      <Filter>Manager\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="GameThread.h">
+      <Filter>Manager\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalThread.h">
+      <Filter>Manager\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFile.h">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="FontRenderer.h">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="LineRenderer.h">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptRenderer.h">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashWindow.h">
+      <Filter>Object\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ_UnityBuild.h">
+      <Filter>Unity_Build</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX9Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreBuilder.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionFunc.cpp">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePathMgr.cpp">
+      <Filter>Manager\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Manager\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="ResolutionMgr.cpp">
+      <Filter>Manager\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerMgr.cpp">
+      <Filter>Manager\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Header\Precom</Filter>
+    </ClCompile>
+    <ClCompile Include="UserGlobalVar.cpp">
+      <Filter>Header\User\SubUserHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="AniRenderer.cpp">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="FixRenderer.cpp">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.cpp">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="TransForm.cpp">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCom.cpp">
+      <Filter>Object\ActObject\Component\BaseCom</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMgr.cpp">
+      <Filter>Object\ActObject\Component\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>Object\ActObject\Component\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>Object\Window\ResourceMgr\Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMesh.cpp">
+      <Filter>Object\Window\ResourceMgr\Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMultiSprite.cpp">
+      <Filter>Object\Window\ResourceMgr\Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>Object\Window\ResourceMgr\Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTexture.cpp">
+      <Filter>Object\Window\ResourceMgr\Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgr_Sound.cpp">
+      <Filter>Object\Window\ResourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgr.cpp">
+      <Filter>Object\Window\ResourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjBase.cpp">
+      <Filter>Object\ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="GDevice.cpp">
+      <Filter>Object\Window\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Object\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBuilder.cpp">
+      <Filter>Object\Window\Scene\SceneBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCollisionMgr.cpp">
+      <Filter>Object\Window\Scene\SceneCollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRenderMgr.cpp">
+      <Filter>Object\Window\Scene\SceneRenderMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Object\Window\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ActObject.cpp">
+      <Filter>Object\ActObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowMgr.cpp">
+      <Filter>Manager\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Object\ActObject\Component\Standard\OrthoCam</Filter>
+    </ClCompile>
+    <ClCompile Include="PersCamera.cpp">
+      <Filter>Object\ActObject\Component\Standard\PerspectiveCam</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMgr.cpp">
+      <Filter>Object\Window\DebugMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFont.cpp">
+      <Filter>Object\Window\ResourceMgr\Resource\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GameString.cpp">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="SJRandom.cpp">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="SJMath.cpp">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadMgr.cpp">
+      <Filter>Manager\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GameThread.cpp">
+      <Filter>Manager\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalThread.cpp">
+      <Filter>Manager\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFile.cpp">
+      <Filter>Manager\GlobalFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStruct.cpp">
+      <Filter>Header\User\SubUserHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Object\ActObject\Component\Standard</Filter>
+    </ClCompile>
+    <ClCompile Include="FontRenderer.cpp">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="LineRenderer.cpp">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptRenderer.cpp">
+      <Filter>Object\ActObject\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashWindow.cpp">
+      <Filter>Object\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ_UnityBuild.cpp">
+      <Filter>Unity_Build</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

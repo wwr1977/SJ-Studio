@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unity_Debug|Win32">
+      <Configuration>Unity_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unity_Debug|x64">
+      <Configuration>Unity_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C1210CD5-9779-45BE-BB47-3FB769B6D593}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FRClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Unity_Debug|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Unity_Debug|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\FRCore;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;..\SJ_SplashWindow;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);..\Bin\;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\FRCore;..\ThirdParty\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;..\ThirdParty\Microsoft DirectX SDK %28June 2010%29\Include;..\SJ_SplashWindow;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);..\Bin\;..\ThirdParty\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;..\ThirdParty\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\FRCore;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;..\SJ_SplashWindow;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);..\Bin\;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\FRCore;..\ThirdParty\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;..\ThirdParty\Microsoft DirectX SDK %28June 2010%29\Include;..\SJ_SplashWindow;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);..\Bin\;..\ThirdParty\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;..\ThirdParty\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;X32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>Precom.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions);X64</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>Precom.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions);X32</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>Precom.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions);X64</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>Precom.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionPhase.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="BasePhase.cpp" />
+    <ClCompile Include="BattleEndPhase.cpp" />
+    <ClCompile Include="BattleEventObject.cpp" />
+    <ClCompile Include="BattlePositionMenu.cpp" />
+    <ClCompile Include="BattlePositionUI.cpp" />
+    <ClCompile Include="BattleResultWindow.cpp" />
+    <ClCompile Include="BattleSceneBuilder.cpp" />
+    <ClCompile Include="BattleState.cpp" />
+    <ClCompile Include="BattleUnit.cpp" />
+    <ClCompile Include="BossGauge.cpp" />
+    <ClCompile Include="CharacterEquipmentMenu.cpp" />
+    <ClCompile Include="CharacterEquipTab.cpp" />
+    <ClCompile Include="CharacterParameter.cpp" />
+    <ClCompile Include="CharacterSkillMenu.cpp" />
+    <ClCompile Include="CharacterStatus.cpp" />
+    <ClCompile Include="CharacterStatusMenu.cpp" />
+    <ClCompile Include="CharAction.cpp" />
+    <ClCompile Include="CharAppear.cpp" />
+    <ClCompile Include="CharDead.cpp" />
+    <ClCompile Include="CharDying.cpp" />
+    <ClCompile Include="CharIdle.cpp" />
+    <ClCompile Include="CharReAction.cpp" />
+    <ClCompile Include="CharResultUI.cpp" />
+    <ClCompile Include="CharSelectEffect.cpp" />
+    <ClCompile Include="CharStatusTab.cpp" />
+    <ClCompile Include="CharWin.cpp" />
+    <ClCompile Include="CheckPhase.cpp" />
+    <ClCompile Include="ClientGlobal.cpp" />
+    <ClCompile Include="ClientGlobalFunc.cpp" />
+    <ClCompile Include="DemageFont.cpp" />
+    <ClCompile Include="DemageFontGroup.cpp" />
+    <ClCompile Include="DX9CoreBuilder.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EffectMgr.cpp" />
+    <ClCompile Include="EndingCredit.cpp" />
+    <ClCompile Include="EndingSceneBuilder.cpp" />
+    <ClCompile Include="EquipItemTab.cpp" />
+    <ClCompile Include="EventMgr.cpp" />
+    <ClCompile Include="EventNPC.cpp" />
+    <ClCompile Include="ExpGauge.cpp" />
+    <ClCompile Include="FractalTriangle.cpp" />
+    <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="GameMaster.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="GaugeBar.cpp" />
+    <ClCompile Include="InvenItemGuide.cpp" />
+    <ClCompile Include="InvenSlot.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="InventoryMgr.cpp" />
+    <ClCompile Include="ItemTab.cpp" />
+    <ClCompile Include="LoadingSceneBuilder.cpp" />
+    <ClCompile Include="MainMapMgr.cpp" />
+    <ClCompile Include="MainMenuMgr.cpp" />
+    <ClCompile Include="MainPlayerState.cpp" />
+    <ClCompile Include="MainSceneBuilder.cpp" />
+    <ClCompile Include="MapBackground.cpp" />
+    <ClCompile Include="MapObject.cpp" />
+    <ClCompile Include="MenuBase.cpp" />
+    <ClCompile Include="MenuSkillUI.cpp" />
+    <ClCompile Include="MenuTab.cpp" />
+    <ClCompile Include="MonAction.cpp" />
+    <ClCompile Include="MonAppear.cpp" />
+    <ClCompile Include="MonDead.cpp" />
+    <ClCompile Include="MonIdle.cpp" />
+    <ClCompile Include="MonReAction.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MountItemFailGuide.cpp" />
+    <ClCompile Include="MouseCursor.cpp" />
+    <ClCompile Include="NPCBase.cpp" />
+    <ClCompile Include="NumberUI.cpp" />
+    <ClCompile Include="PlayerAttack.cpp" />
+    <ClCompile Include="PlayerDeath.cpp" />
+    <ClCompile Include="PlayerIdle.cpp" />
+    <ClCompile Include="PlayerLogic.cpp" />
+    <ClCompile Include="PlayerReAction.cpp" />
+    <ClCompile Include="PlayerRun.cpp" />
+    <ClCompile Include="PlayerState.cpp" />
+    <ClCompile Include="PlayerTileState.cpp" />
+    <ClCompile Include="PlayerWalk.cpp" />
+    <ClCompile Include="Precom.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Precom.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Precom.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="QuestClearObject.cpp" />
+    <ClCompile Include="QuestMenu.cpp" />
+    <ClCompile Include="QuestRewardGuide.cpp" />
+    <ClCompile Include="QuestTab.cpp" />
+    <ClCompile Include="RelocationPhase.cpp" />
+    <ClCompile Include="RootMenu.cpp" />
+    <ClCompile Include="RotatePhase.cpp" />
+    <ClCompile Include="Script.cpp" />
+    <ClCompile Include="ScriptMgr.cpp" />
+    <ClCompile Include="SelectPhase.cpp" />
+    <ClCompile Include="SkillDetailUI.cpp" />
+    <ClCompile Include="SkillLevelUpUI.cpp" />
+    <ClCompile Include="SkillUI.cpp" />
+    <ClCompile Include="SkillUIBoard.cpp" />
+    <ClCompile Include="SkillUIMgr.cpp" />
+    <ClCompile Include="SkillUITab.cpp" />
+    <ClCompile Include="StairTile.cpp" />
+    <ClCompile Include="StandByPhase.cpp" />
+    <ClCompile Include="StdGauge.cpp" />
+    <ClCompile Include="StepStairTile.cpp" />
+    <ClCompile Include="StepTile.cpp" />
+    <ClCompile Include="StoreSubUI.cpp" />
+    <ClCompile Include="StoreUI.cpp" />
+    <ClCompile Include="StoryCurtain.cpp" />
+    <ClCompile Include="TargetUI.cpp" />
+    <ClCompile Include="TestBox.cpp" />
+    <ClCompile Include="TestEffect.cpp" />
+    <ClCompile Include="TestMonster.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="TileCheckMgr.cpp" />
+    <ClCompile Include="TileMap.cpp" />
+    <ClCompile Include="TitleBackGround.cpp" />
+    <ClCompile Include="TitleIntroObject.cpp" />
+    <ClCompile Include="TitleSceneBuilder.cpp" />
+    <ClCompile Include="TurnMgr.cpp" />
+    <ClCompile Include="TurnOrderUI.cpp" />
+    <ClCompile Include="UnitFont.cpp" />
+    <ClCompile Include="UnitStatusBar.cpp" />
+    <ClCompile Include="WorldMap.cpp" />
+    <ClCompile Include="WorldMapUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionPhase.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="BasePhase.h" />
+    <ClInclude Include="BattleEndPhase.h" />
+    <ClInclude Include="BattleEventObject.h" />
+    <ClInclude Include="BattlePositionMenu.h" />
+    <ClInclude Include="BattlePositionUI.h" />
+    <ClInclude Include="BattleResultWindow.h" />
+    <ClInclude Include="BattleSceneBuilder.h" />
+    <ClInclude Include="BattleState.h" />
+    <ClInclude Include="BattleUnit.h" />
+    <ClInclude Include="BossGauge.h" />
+    <ClInclude Include="CharacterEquipmentMenu.h" />
+    <ClInclude Include="CharacterEquipTab.h" />
+    <ClInclude Include="CharacterParameter.h" />
+    <ClInclude Include="CharacterSkillMenu.h" />
+    <ClInclude Include="CharacterStatus.h" />
+    <ClInclude Include="CharacterStatusMenu.h" />
+    <ClInclude Include="CharAction.h" />
+    <ClInclude Include="CharAppear.h" />
+    <ClInclude Include="CharDead.h" />
+    <ClInclude Include="CharDying.h" />
+    <ClInclude Include="CharIdle.h" />
+    <ClInclude Include="CharReAction.h" />
+    <ClInclude Include="CharResultUI.h" />
+    <ClInclude Include="CharSelectEffect.h" />
+    <ClInclude Include="CharStatusTab.h" />
+    <ClInclude Include="CharWin.h" />
+    <ClInclude Include="CheckPhase.h" />
+    <ClInclude Include="ClientGlobal.h" />
+    <ClInclude Include="ClientGlobalFunc.h" />
+    <ClInclude Include="ClientHeader.h" />
+    <ClInclude Include="DemageFont.h" />
+    <ClInclude Include="DemageFontGroup.h" />
+    <ClInclude Include="DX9CoreBuilder.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EffectMgr.h" />
+    <ClInclude Include="EndingCredit.h" />
+    <ClInclude Include="EndingSceneBuilder.h" />
+    <ClInclude Include="EquipItemTab.h" />
+    <ClInclude Include="EventMgr.h" />
+    <ClInclude Include="EventNPC.h" />
+    <ClInclude Include="ExpGauge.h" />
+    <ClInclude Include="FractalTriangle.h" />
+    <ClInclude Include="GameMaster.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="GaugeBar.h" />
+    <ClInclude Include="InvenItemGuide.h" />
+    <ClInclude Include="InvenSlot.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryMgr.h" />
+    <ClInclude Include="ItemTab.h" />
+    <ClInclude Include="LoadingSceneBuilder.h" />
+    <ClInclude Include="MainMapMgr.h" />
+    <ClInclude Include="MainMenuMgr.h" />
+    <ClInclude Include="MainPlayerState.h" />
+    <ClInclude Include="MainSceneBuilder.h" />
+    <ClInclude Include="MapBackground.h" />
+    <ClInclude Include="MapObject.h" />
+    <ClInclude Include="MenuBase.h" />
+    <ClInclude Include="MenuSkillUI.h" />
+    <ClInclude Include="MenuTab.h" />
+    <ClInclude Include="MonAction.h" />
+    <ClInclude Include="MonAppear.h" />
+    <ClInclude Include="MonDead.h" />
+    <ClInclude Include="MonIdle.h" />
+    <ClInclude Include="MonReAction.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MountItemFailGuide.h" />
+    <ClInclude Include="MouseCursor.h" />
+    <ClInclude Include="NPCBase.h" />
+    <ClInclude Include="NumberUI.h" />
+    <ClInclude Include="PlayerAttack.h" />
+    <ClInclude Include="PlayerDeath.h" />
+    <ClInclude Include="PlayerIdle.h" />
+    <ClInclude Include="PlayerLogic.h" />
+    <ClInclude Include="PlayerReAction.h" />
+    <ClInclude Include="PlayerRun.h" />
+    <ClInclude Include="PlayerState.h" />
+    <ClInclude Include="PlayerTileState.h" />
+    <ClInclude Include="PlayerWalk.h" />
+    <ClInclude Include="Precom.h" />
+    <ClInclude Include="QuestClearObject.h" />
+    <ClInclude Include="QuestMenu.h" />
+    <ClInclude Include="QuestRewardGuide.h" />
+    <ClInclude Include="QuestTab.h" />
+    <ClInclude Include="RelocationPhase.h" />
+    <ClInclude Include="RootMenu.h" />
+    <ClInclude Include="RotatePhase.h" />
+    <ClInclude Include="Script.h" />
+    <ClInclude Include="ScriptMgr.h" />
+    <ClInclude Include="SelectPhase.h" />
+    <ClInclude Include="SkillDetailUI.h" />
+    <ClInclude Include="SkillLevelUpUI.h" />
+    <ClInclude Include="SkillUI.h" />
+    <ClInclude Include="SkillUIBoard.h" />
+    <ClInclude Include="SkillUIMgr.h" />
+    <ClInclude Include="SkillUITab.h" />
+    <ClInclude Include="StairTile.h" />
+    <ClInclude Include="StandByPhase.h" />
+    <ClInclude Include="StdGauge.h" />
+    <ClInclude Include="StepStairTile.h" />
+    <ClInclude Include="StepTile.h" />
+    <ClInclude Include="StoreSubUI.h" />
+    <ClInclude Include="StoreUI.h" />
+    <ClInclude Include="StoryCurtain.h" />
+    <ClInclude Include="TargetUI.h" />
+    <ClInclude Include="TestBox.h" />
+    <ClInclude Include="TestEffect.h" />
+    <ClInclude Include="TestMonster.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="TileCheckMgr.h" />
+    <ClInclude Include="TileMap.h" />
+    <ClInclude Include="TitleBackGround.h" />
+    <ClInclude Include="TitleIntroObject.h" />
+    <ClInclude Include="TitleSceneBuilder.h" />
+    <ClInclude Include="TurnMgr.h" />
+    <ClInclude Include="TurnOrderUI.h" />
+    <ClInclude Include="UnitFont.h" />
+    <ClInclude Include="UnitStatusBar.h" />
+    <ClInclude Include="WorldMap.h" />
+    <ClInclude Include="WorldMapUI.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

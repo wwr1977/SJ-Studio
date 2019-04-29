@@ -1,0 +1,920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{b329f30c-2e84-428b-a5d4-3f9312ff3759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{8ab45c10-639e-4ce4-bd74-b4f24f8e4c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CoreBuilder">
+      <UniqueIdentifier>{95bb83d9-ebd0-4ec9-a115-3f3745af4d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder">
+      <UniqueIdentifier>{33ae1424-432d-4bf3-b96f-2ecac5581593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic">
+      <UniqueIdentifier>{5626c70b-77d7-4e4b-9e50-0388d96aa6a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Precom">
+      <UniqueIdentifier>{0f1edc3a-0d18-4497-817a-7e5f40c533ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ClientHeader">
+      <UniqueIdentifier>{c15c9345-6d63-49b8-bb9f-ed1bbce31003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Main">
+      <UniqueIdentifier>{a95e35ac-7ba1-44a6-82de-eeb92d4e825b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\Player">
+      <UniqueIdentifier>{21263f9d-7fa4-477f-8b54-e19e792e1e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\Player\State">
+      <UniqueIdentifier>{ff972641-81d0-442b-8d2b-cb035863e140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\Monster">
+      <UniqueIdentifier>{8ef74063-e1c8-4c0a-ba38-c30fc9957cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\Player\State\Base">
+      <UniqueIdentifier>{f34093be-55f3-49e7-a777-442a020f25d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\ClientGlobal">
+      <UniqueIdentifier>{2a710997-e209-4d2f-911b-96b26b130c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\BackGround">
+      <UniqueIdentifier>{3f1daaac-625a-4144-8503-1c0aef0ac698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\TestMonster">
+      <UniqueIdentifier>{4f517f9b-b889-493a-9b64-e2b0d33797d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\MouseCursor">
+      <UniqueIdentifier>{3743a0d7-1219-459c-8430-040b17f5ad9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\BattleUI">
+      <UniqueIdentifier>{27d83868-413f-4a71-9336-9adf49a092ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\BattleUI\UI">
+      <UniqueIdentifier>{1bdad186-8525-4fba-ab75-a4f3eef21969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\Number">
+      <UniqueIdentifier>{a2035d35-4180-46e0-9072-dcaf3461d7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\BattleUI\UI\UnitStatus">
+      <UniqueIdentifier>{13b36172-f171-423c-8775-ca828e047c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\BattleUnit">
+      <UniqueIdentifier>{ca1f2b7d-f33d-460b-acbd-58489105f6d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\BattleScene">
+      <UniqueIdentifier>{4cb980f1-285d-469f-aadd-a91b039ec1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\BattleScene\TurnMgr">
+      <UniqueIdentifier>{734083b2-2b4a-4bb1-8659-f97f319e0bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\BattleScene\TurnMgr\Phase">
+      <UniqueIdentifier>{44b138b8-7c7d-4ef6-b5b2-0a5e555b1ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\BattleScene\TurnMgr\Phase\Base">
+      <UniqueIdentifier>{70490d35-bf2e-4156-bbb2-94525f8a2359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\BattleScene\EffectMgr">
+      <UniqueIdentifier>{c4a8ab07-3b5c-4557-91f1-c7a6248a1878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\BattleScene\EffectMgr\Effect">
+      <UniqueIdentifier>{42f1cf1a-5d83-4b25-aaf3-7fcbccc78caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\BattleUnit\BattleState">
+      <UniqueIdentifier>{cc5a175c-4fb3-4f3c-9f4e-c398b50482f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\BattleUnit\BattleState\Character">
+      <UniqueIdentifier>{37a72eb8-daf0-4f63-a794-3ca30a00eb55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\BattleUnit\BattleState\Monster">
+      <UniqueIdentifier>{b842c8d7-9e3b-4e74-add1-fcf2581ece25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\BattleScene\SkillUIMgr">
+      <UniqueIdentifier>{d84b6766-880c-49af-9ccc-72cfbb7c6ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\BattleScene\SkillUIMgr\SkillUI">
+      <UniqueIdentifier>{abcf338a-1080-4922-9dae-3ace4f017b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene">
+      <UniqueIdentifier>{2c9190ed-a6cf-4088-b564-0c8530d3b8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\LoadingScene">
+      <UniqueIdentifier>{4df4d160-e415-4e5a-82aa-5fe5cf2aeaff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster">
+      <UniqueIdentifier>{3761f4f9-0663-4b99-8f0a-5b424248f42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\MapMgr">
+      <UniqueIdentifier>{54e3f433-6ac5-4041-b86b-8ce91721496d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\Player">
+      <UniqueIdentifier>{09977b8a-702c-466f-87f1-27767259425e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\Player\State">
+      <UniqueIdentifier>{93b76852-526f-4754-a5c3-0e38590b7e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\MapMgr\TileMap">
+      <UniqueIdentifier>{a9ef8c6c-9421-4249-b791-7dc536ee48aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\Player\State\Move">
+      <UniqueIdentifier>{7ccb41e1-eb77-4734-8efa-45631f8175d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\Player\State\Tile">
+      <UniqueIdentifier>{16aedbbc-fa46-42a0-a979-bec124c6e6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\MapMgr\WorldMap">
+      <UniqueIdentifier>{be4bca4d-8a8d-46c2-a98b-563467e80fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\BattleScene\TurnMgr\ResultWindow">
+      <UniqueIdentifier>{a3cc14f3-48ef-425a-8950-8c6ba83e8521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr">
+      <UniqueIdentifier>{4c1ca7c4-aa15-4cba-9c9e-9c58aaa8d958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu">
+      <UniqueIdentifier>{2a837d62-7fb2-4d80-bbed-2a11d00f1a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\Base">
+      <UniqueIdentifier>{3ee58a01-9833-428e-a6ed-a112e670789d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\Sub">
+      <UniqueIdentifier>{6675050c-150a-4e12-a573-da5d165f8830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI">
+      <UniqueIdentifier>{954dbb2c-e225-4e4e-ba2c-652fcbfc52f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\InventoryMgr">
+      <UniqueIdentifier>{c0b72264-3802-4287-9122-09026964ff50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\ScriptMgr">
+      <UniqueIdentifier>{81ba245d-504a-4b0e-aa89-d3ee04d5664e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\NPC">
+      <UniqueIdentifier>{5592e717-6f79-434b-986c-e95c177d8cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\NPC\Base">
+      <UniqueIdentifier>{b1ca99db-980c-4821-86ff-91e0fe39ac78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\EventMgr">
+      <UniqueIdentifier>{43cd7ce1-847a-4ef4-b16f-66d3fd0d446a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\BattleUI\EvnetObject">
+      <UniqueIdentifier>{3e23453e-1c25-4384-af4a-194c2344bd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\TitleScene">
+      <UniqueIdentifier>{6b044c2f-4980-464e-8cfd-8989c30cec1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\EndingScene">
+      <UniqueIdentifier>{523c0bea-7a34-4775-a78c-714968c357f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\TitleScene\SubObject">
+      <UniqueIdentifier>{415c6496-58e7-4fec-9208-46439c1d7d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\EndingScene\EndingObject">
+      <UniqueIdentifier>{87732827-edf5-4c32-9774-c076169aa8e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MainScene\GameMaster\Store">
+      <UniqueIdentifier>{96b06172-5d79-4cd2-8164-d9175ae49a69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX9CoreBuilder.cpp">
+      <Filter>Core\CoreBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAttack.cpp">
+      <Filter>Core\SubLogic\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDeath.cpp">
+      <Filter>Core\SubLogic\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerReAction.cpp">
+      <Filter>Core\SubLogic\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>Core\SubLogic\Player\State\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLogic.cpp">
+      <Filter>Core\SubLogic\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Core\SubLogic\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>Code\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Precom.cpp">
+      <Filter>Code\Precom</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Core\SubLogic\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCursor.cpp">
+      <Filter>Core\SubLogic\MouseCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientGlobal.cpp">
+      <Filter>Code\ClientGlobal</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMonster.cpp">
+      <Filter>Core\SubLogic\TestMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBox.cpp" />
+    <ClCompile Include="UnitStatusBar.cpp">
+      <Filter>Core\SubLogic\BattleUI\UI\UnitStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="GaugeBar.cpp">
+      <Filter>Core\SubLogic\BattleUI\UI\UnitStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberUI.cpp">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUnit.cpp">
+      <Filter>Core\SubLogic\BattleUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientGlobalFunc.cpp">
+      <Filter>Code\Precom</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleSceneBuilder.cpp">
+      <Filter>Core\SceneBuilder\BattleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionPhase.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectPhase.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="StandByPhase.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnMgr.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePhase.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnOrderUI.cpp">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatePhase.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSelectEffect.cpp">
+      <Filter>Core\SubLogic\BattleUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEffect.cpp" />
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\EffectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\EffectMgr\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="DemageFont.cpp">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleState.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="CharAction.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="CharIdle.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="CharReAction.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="MonAction.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonIdle.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonReAction.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillUIMgr.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\SkillUIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillUI.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\SkillUIMgr\SkillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillUITab.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\SkillUIMgr\SkillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillUIBoard.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\SkillUIMgr\SkillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetUI.cpp">
+      <Filter>Core\SubLogic\BattleUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="DemageFontGroup.cpp">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSceneBuilder.cpp">
+      <Filter>Core\SceneBuilder\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingSceneBuilder.cpp">
+      <Filter>Core\SceneBuilder\LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMaster.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBackground.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMapMgr.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPlayerState.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdle.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRun.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWalk.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTileState.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="StairTile.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="StepStairTile.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="StepTile.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="TileCheckMgr.cpp">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMap.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMapUI.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitFont.cpp">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckPhase.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleEndPhase.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="CharDying.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="CharDead.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="MonDead.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CharWin.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="RelocationPhase.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="CharAppear.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="MonAppear.cpp">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleResultWindow.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\ResultWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="CharResultUI.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\ResultWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpGauge.cpp">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\ResultWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuMgr.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBase.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuTab.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlePositionUI.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StdGauge.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RootMenu.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlePositionMenu.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CharStatusTab.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterStatus.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterParameter.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterStatusMenu.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSkillMenu.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSkillUI.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillDetailUI.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillLevelUpUI.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterEquipTab.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterEquipmentMenu.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MountItemFailGuide.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItemTab.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryMgr.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\InventoryMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptMgr.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\ScriptMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\ScriptMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCBase.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\NPC\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMgr.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EventNPC.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleEventObject.cpp">
+      <Filter>Core\SubLogic\BattleUI\EvnetObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FractalTriangle.cpp">
+      <Filter>Core\SubLogic\BattleUI\EvnetObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingSceneBuilder.cpp">
+      <Filter>Core\SceneBuilder\EndingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleSceneBuilder.cpp">
+      <Filter>Core\SceneBuilder\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBackGround.cpp">
+      <Filter>Core\SceneBuilder\TitleScene\SubObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleIntroObject.cpp">
+      <Filter>Core\SceneBuilder\TitleScene\SubObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCredit.cpp">
+      <Filter>Core\SceneBuilder\EndingScene\EndingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Core\SceneBuilder\EndingScene\EndingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryCurtain.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestClearObject.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreUI.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTab.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="BossGauge.cpp">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreSubUI.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\InventoryMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="InvenSlot.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\InventoryMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="InvenItemGuide.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\InventoryMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestMenu.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestTab.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestRewardGuide.cpp">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX9CoreBuilder.h">
+      <Filter>Core\CoreBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAttack.h">
+      <Filter>Core\SubLogic\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDeath.h">
+      <Filter>Core\SubLogic\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerReAction.h">
+      <Filter>Core\SubLogic\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Core\SubLogic\Player\State\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLogic.h">
+      <Filter>Core\SubLogic\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Core\SubLogic\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Precom.h">
+      <Filter>Code\Precom</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientHeader.h">
+      <Filter>Code\ClientHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Core\SubLogic\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCursor.h">
+      <Filter>Core\SubLogic\MouseCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientGlobal.h">
+      <Filter>Code\ClientGlobal</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMonster.h">
+      <Filter>Core\SubLogic\TestMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBox.h" />
+    <ClInclude Include="UnitStatusBar.h">
+      <Filter>Core\SubLogic\BattleUI\UI\UnitStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="GaugeBar.h">
+      <Filter>Core\SubLogic\BattleUI\UI\UnitStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberUI.h">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUnit.h">
+      <Filter>Core\SubLogic\BattleUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientGlobalFunc.h">
+      <Filter>Code\Precom</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSceneBuilder.h">
+      <Filter>Core\SceneBuilder\BattleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPhase.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectPhase.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="StandByPhase.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnMgr.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePhase.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnOrderUI.h">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatePhase.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSelectEffect.h">
+      <Filter>Core\SubLogic\BattleUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEffect.h" />
+    <ClInclude Include="EffectMgr.h">
+      <Filter>Core\SceneBuilder\BattleScene\EffectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Core\SceneBuilder\BattleScene\EffectMgr\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="DemageFont.h">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleState.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState</Filter>
+    </ClInclude>
+    <ClInclude Include="CharAction.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CharIdle.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CharReAction.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="MonAction.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonIdle.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonReAction.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillUIMgr.h">
+      <Filter>Core\SceneBuilder\BattleScene\SkillUIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillUI.h">
+      <Filter>Core\SceneBuilder\BattleScene\SkillUIMgr\SkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillUITab.h">
+      <Filter>Core\SceneBuilder\BattleScene\SkillUIMgr\SkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillUIBoard.h">
+      <Filter>Core\SceneBuilder\BattleScene\SkillUIMgr\SkillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetUI.h">
+      <Filter>Core\SubLogic\BattleUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="DemageFontGroup.h">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainSceneBuilder.h">
+      <Filter>Core\SceneBuilder\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingSceneBuilder.h">
+      <Filter>Core\SceneBuilder\LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaster.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBackground.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMapMgr.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Core\SceneBuilder\MainScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWalk.h">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPlayerState.h">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdle.h">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRun.h">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTileState.h">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="StairTile.h">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="StepStairTile.h">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="StepTile.h">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileCheckMgr.h">
+      <Filter>Core\SceneBuilder\MainScene\Player\State\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMap.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMapUI.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitFont.h">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckPhase.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleEndPhase.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="CharDying.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CharDead.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="MonDead.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CharWin.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="RelocationPhase.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="CharAppear.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="MonAppear.h">
+      <Filter>Core\SubLogic\BattleUnit\BattleState\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleResultWindow.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\ResultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="CharResultUI.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\ResultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpGauge.h">
+      <Filter>Core\SceneBuilder\BattleScene\TurnMgr\ResultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuMgr.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MapMgr\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuBase.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuTab.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="BattlePositionUI.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StdGauge.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RootMenu.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="BattlePositionMenu.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CharStatusTab.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterStatus.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterParameter.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterStatusMenu.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSkillMenu.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSkillUI.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillDetailUI.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillLevelUpUI.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterEquipTab.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterEquipmentMenu.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MountItemFailGuide.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItemTab.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryMgr.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\InventoryMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptMgr.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\ScriptMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\ScriptMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCBase.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\NPC\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMgr.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="EventNPC.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleEventObject.h">
+      <Filter>Core\SubLogic\BattleUI\EvnetObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FractalTriangle.h">
+      <Filter>Core\SubLogic\BattleUI\EvnetObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingSceneBuilder.h">
+      <Filter>Core\SceneBuilder\EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleSceneBuilder.h">
+      <Filter>Core\SceneBuilder\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleIntroObject.h">
+      <Filter>Core\SceneBuilder\TitleScene\SubObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBackGround.h">
+      <Filter>Core\SceneBuilder\TitleScene\SubObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingCredit.h">
+      <Filter>Core\SceneBuilder\EndingScene\EndingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Core\SceneBuilder\EndingScene\EndingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryCurtain.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestClearObject.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreUI.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTab.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="BossGauge.h">
+      <Filter>Core\SubLogic\BattleUI\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreSubUI.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\InventoryMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="InvenSlot.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\InventoryMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="InvenItemGuide.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\InventoryMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestMenu.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestTab.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestRewardGuide.h">
+      <Filter>Core\SceneBuilder\MainScene\GameMaster\MainMeneMgr\Menu\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unity_Debug|Win32">
+      <Configuration>Unity_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unity_Debug|x64">
+      <Configuration>Unity_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{80E86102-176C-4B29-BC24-5BAF94BBC014}</ProjectGuid>
+    <RootNamespace>FREditor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Unity_Debug|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Unity_Debug|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\FRCore;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);..\Bin\;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\FRCore;..\ThirdParty\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;..\ThirdParty\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);..\Bin\;..\ThirdParty\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;..\ThirdParty\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\FRCore;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);..\Bin\;C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\FRCore;..\ThirdParty\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;..\ThirdParty\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);..\Bin\;..\ThirdParty\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;..\ThirdParty\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG%(PreprocessorDefinitions);X32</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions);X64;EDITOR</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions);X32;EDITOR</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions);X64;EDITOR</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionScriptDlg.h" />
+    <ClInclude Include="AnimationDlg.h" />
+    <ClInclude Include="AnimationList.h" />
+    <ClInclude Include="AniSpriteDlg.h" />
+    <ClInclude Include="AniSpriteList.h" />
+    <ClInclude Include="BaseAniModel.h" />
+    <ClInclude Include="EditBattleState.h" />
+    <ClInclude Include="CamMove.h" />
+    <ClInclude Include="CamWaiting.h" />
+    <ClInclude Include="CharacterDlg.h" />
+    <ClInclude Include="EditCharAction.h" />
+    <ClInclude Include="EditCharIdle.h" />
+    <ClInclude Include="EditCharReAction.h" />
+    <ClInclude Include="CharStatDlg.h" />
+    <ClInclude Include="DataRenderer.h" />
+    <ClInclude Include="DiView.h" />
+    <ClInclude Include="DxView.h" />
+    <ClInclude Include="EditBackGround.h" />
+    <ClInclude Include="EditBattleUnit.h" />
+    <ClInclude Include="EditCameraMen.h" />
+    <ClInclude Include="EditCamState.h" />
+    <ClInclude Include="EditCoreBuilder.h" />
+    <ClInclude Include="EditDemageFont.h" />
+    <ClInclude Include="EditDemageFontGroup.h" />
+    <ClInclude Include="EditEffect.h" />
+    <ClInclude Include="EditEffectMgr.h" />
+    <ClInclude Include="EditGlobal.h" />
+    <ClInclude Include="EditGlobalFunc.h" />
+    <ClInclude Include="EditMapMgr.h" />
+    <ClInclude Include="EditMapObject.h" />
+    <ClInclude Include="EditNumberUI.h" />
+    <ClInclude Include="EditorHeader.h" />
+    <ClInclude Include="EditTile.h" />
+    <ClInclude Include="EditTileMap.h" />
+    <ClInclude Include="EffectDlg.h" />
+    <ClInclude Include="FixSpWnd.h" />
+    <ClInclude Include="FREditor.h" />
+    <ClInclude Include="Gauge.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MapDlg.h" />
+    <ClInclude Include="MapSceneBuilder.h" />
+    <ClInclude Include="MiddlePoint.h" />
+    <ClInclude Include="EditMonAction.h" />
+    <ClInclude Include="EditMonIdle.h" />
+    <ClInclude Include="EditMonReAction.h" />
+    <ClInclude Include="MonStatDlg.h" />
+    <ClInclude Include="MultiSpriteDlg.h" />
+    <ClInclude Include="MultiSpriteLine.h" />
+    <ClInclude Include="MultiSpriteListDlg.h" />
+    <ClInclude Include="MultiSpriteModel.h" />
+    <ClInclude Include="ParameterRen.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RootDlg.h" />
+    <ClInclude Include="SkillDataDlg.h" />
+    <ClInclude Include="SkillDlg.h" />
+    <ClInclude Include="SkillMgr.h" />
+    <ClInclude Include="SkillSceneBuilder.h" />
+    <ClInclude Include="StatDlg.h" />
+    <ClInclude Include="StatSceneBuilder.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextureListDlg.h" />
+    <ClInclude Include="TextureModel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActionScriptDlg.cpp" />
+    <ClCompile Include="AnimationDlg.cpp" />
+    <ClCompile Include="AnimationList.cpp" />
+    <ClCompile Include="AniSpriteDlg.cpp" />
+    <ClCompile Include="AniSpriteList.cpp" />
+    <ClCompile Include="BaseAniModel.cpp" />
+    <ClCompile Include="EditBattleState.cpp" />
+    <ClCompile Include="CamMove.cpp" />
+    <ClCompile Include="CamWaiting.cpp" />
+    <ClCompile Include="CharacterDlg.cpp" />
+    <ClCompile Include="EditCharAction.cpp" />
+    <ClCompile Include="EditCharIdle.cpp" />
+    <ClCompile Include="EditCharReAction.cpp" />
+    <ClCompile Include="CharStatDlg.cpp" />
+    <ClCompile Include="DataRenderer.cpp" />
+    <ClCompile Include="DiView.cpp" />
+    <ClCompile Include="DxView.cpp" />
+    <ClCompile Include="EditBackGround.cpp" />
+    <ClCompile Include="EditBattleUnit.cpp" />
+    <ClCompile Include="EditCameraMen.cpp" />
+    <ClCompile Include="EditCamState.cpp" />
+    <ClCompile Include="EditCoreBuilder.cpp" />
+    <ClCompile Include="EditDemageFont.cpp" />
+    <ClCompile Include="EditDemageFontGroup.cpp" />
+    <ClCompile Include="EditEffect.cpp" />
+    <ClCompile Include="EditEffectMgr.cpp" />
+    <ClCompile Include="EditGlobal.cpp" />
+    <ClCompile Include="EditGlobalFunc.cpp" />
+    <ClCompile Include="EditMapMgr.cpp" />
+    <ClCompile Include="EditMapObject.cpp" />
+    <ClCompile Include="EditNumberUI.cpp" />
+    <ClCompile Include="EditTile.cpp" />
+    <ClCompile Include="EditTileMap.cpp" />
+    <ClCompile Include="EffectDlg.cpp" />
+    <ClCompile Include="FixSpWnd.cpp" />
+    <ClCompile Include="FREditor.cpp" />
+    <ClCompile Include="Gauge.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MapDlg.cpp" />
+    <ClCompile Include="MapSceneBuilder.cpp" />
+    <ClCompile Include="MiddlePoint.cpp" />
+    <ClCompile Include="EditMonAction.cpp" />
+    <ClCompile Include="EditMonIdle.cpp" />
+    <ClCompile Include="EditMonReAction.cpp" />
+    <ClCompile Include="MonStatDlg.cpp" />
+    <ClCompile Include="MultiSpriteDlg.cpp" />
+    <ClCompile Include="MultiSpriteLine.cpp" />
+    <ClCompile Include="MultiSpriteListDlg.cpp" />
+    <ClCompile Include="MultiSpriteModel.cpp" />
+    <ClCompile Include="ParameterRen.cpp" />
+    <ClCompile Include="RootDlg.cpp" />
+    <ClCompile Include="SkillDataDlg.cpp" />
+    <ClCompile Include="SkillDlg.cpp" />
+    <ClCompile Include="SkillMgr.cpp" />
+    <ClCompile Include="SkillSceneBuilder.cpp" />
+    <ClCompile Include="StatDlg.cpp" />
+    <ClCompile Include="StatSceneBuilder.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TextureListDlg.cpp" />
+    <ClCompile Include="TextureModel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FREditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FREditor.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FREditor.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

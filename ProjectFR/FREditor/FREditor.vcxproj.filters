@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainFrame">
+      <UniqueIdentifier>{5ddcf2d1-8e57-4026-8a2a-2c22941abbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFCStandard">
+      <UniqueIdentifier>{50c32589-5a0f-4b8b-9f7b-ffd35ac92332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{0377fdec-fc09-49e6-85e3-d6e51695ff35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CoreBuilder">
+      <UniqueIdentifier>{29346c9a-4d0f-4b0d-b069-382819418879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header">
+      <UniqueIdentifier>{42311cce-e77e-47c1-be33-2edc38ccd362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder">
+      <UniqueIdentifier>{cd904e1a-f00e-4197-8f94-fe659f76c3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC">
+      <UniqueIdentifier>{b4d95bc8-9e4f-4a09-9a9d-3b188ff17bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\View">
+      <UniqueIdentifier>{8599f367-5d27-43f5-8f7e-1c07cd6f8db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\SplitterWnd">
+      <UniqueIdentifier>{578d19c1-f619-4f02-9103-1a4234d4a123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog">
+      <UniqueIdentifier>{31ece114-7424-4ded-bb1b-331eb9c8c2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\RootDlg">
+      <UniqueIdentifier>{ff94d41a-ebb5-4e22-b049-3ba61431eb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg">
+      <UniqueIdentifier>{78e3c171-23fe-45e0-8408-c2f6503e9108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg\Sub">
+      <UniqueIdentifier>{969911f2-d750-4ca7-b3cb-b59ce6d097ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GlobalValue">
+      <UniqueIdentifier>{c408f7f3-9c82-4541-b1ef-2361ff142ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic">
+      <UniqueIdentifier>{5c8c5314-1d85-4942-84ae-3b44c62cc785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\EditCamera">
+      <UniqueIdentifier>{a2dd549e-008f-4c0e-8567-194b9e25cd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\EditCamera\State">
+      <UniqueIdentifier>{ededa829-f1e6-4e8c-8624-336c90839a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\EditCamera\LineDraw">
+      <UniqueIdentifier>{30200ebe-be0f-45dc-b401-754f6c4765cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg\Sub\NewMultiSpriteDlg">
+      <UniqueIdentifier>{ed5f1909-b567-401e-af2b-05a0901bbf00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg\Sub\NewMultiSpriteDlg\SubMultispriteDlg">
+      <UniqueIdentifier>{40b99573-f739-49bb-807e-dc15004265a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg\Sub\AnimationDlg">
+      <UniqueIdentifier>{952e3856-cf2f-4c77-acdd-a64188f49d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg\Sub\AnimationDlg\SubAnimationDlg">
+      <UniqueIdentifier>{79c4e599-9378-40be-aa7b-afda6100954e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\Model">
+      <UniqueIdentifier>{6f9fb0a7-61c5-4d87-9164-4b648a7debdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\Stat">
+      <UniqueIdentifier>{eb9a60b8-abe9-4c56-90d5-55e5664aa1df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\Parameter">
+      <UniqueIdentifier>{7dacce11-aaa4-4a56-9299-586396d1d172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg\Sub\EffectDlg">
+      <UniqueIdentifier>{c2516504-607b-41fd-a9aa-7425e709bac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\Effect">
+      <UniqueIdentifier>{e59ef6c2-84fe-4acd-be0b-982dd8d9e388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg\Sub\SkillDlg">
+      <UniqueIdentifier>{8d6023a8-f244-4b27-bdb2-5754fe3b324d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg\Sub\SkillDlg\ActionScriptDlg">
+      <UniqueIdentifier>{c38af9a7-3dd5-4e83-ab93-bbf55cbc9376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\CharacterDlg\Sub\SkillDlg\SkillDataDlg">
+      <UniqueIdentifier>{eb13768f-0d20-4a2e-98d7-2835a9ff8499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\SkillScene">
+      <UniqueIdentifier>{0c0a2cea-bd6a-4d02-9a48-d6e14a8709d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\SkillScene\Sub">
+      <UniqueIdentifier>{6febe19c-9ec8-45b8-bc44-0275e72e5f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\SkillScene\Sub\Unit">
+      <UniqueIdentifier>{dbf62fc0-51fd-48cd-ade2-3e3544434d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\SkillScene\Sub\Unit\State">
+      <UniqueIdentifier>{6bf58aa4-5ac6-4fd4-9b73-951dd927e81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\SkillScene\Sub\Unit\State\Char">
+      <UniqueIdentifier>{10b74d93-8094-432f-936f-0430d75f7cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\SkillScene\Sub\Unit\State\Mon">
+      <UniqueIdentifier>{5883ec9f-e9c1-4ba5-9659-98a873435ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\SkillScene\Sub\NumberUI">
+      <UniqueIdentifier>{75d21431-273d-48f2-b332-1088c44ecd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubMFC\Dialog\Map">
+      <UniqueIdentifier>{d033cd89-f464-4bdf-b09a-c7dd46fb0da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\StateScene">
+      <UniqueIdentifier>{b9423fde-f6cf-4cc5-b54d-511ad148ee4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneBuilder\MapScene">
+      <UniqueIdentifier>{bb254855-fafb-4e52-9111-dc024af1cb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SubLogic\TileMap">
+      <UniqueIdentifier>{acba2c92-b701-4e49-9905-74242de42d48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="FREditor.h">
+      <Filter>MFCStandard</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>MFCStandard</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MFCStandard</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>MFCStandard</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorHeader.h">
+      <Filter>Core\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FixSpWnd.h">
+      <Filter>SubMFC\SplitterWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCoreBuilder.h">
+      <Filter>Core\CoreBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="DiView.h">
+      <Filter>SubMFC\View</Filter>
+    </ClInclude>
+    <ClInclude Include="DxView.h">
+      <Filter>SubMFC\View</Filter>
+    </ClInclude>
+    <ClInclude Include="RootDlg.h">
+      <Filter>SubMFC\Dialog\RootDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSpriteDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="EditGlobal.h">
+      <Filter>Core\GlobalValue</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationList.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\AnimationDlg\SubAnimationDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AniSpriteList.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\AnimationDlg\SubAnimationDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCameraMen.h">
+      <Filter>Core\SubLogic\EditCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCamState.h">
+      <Filter>Core\SubLogic\EditCamera\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CamWaiting.h">
+      <Filter>Core\SubLogic\EditCamera\State</Filter>
+    </ClInclude>
+    <ClInclude Include="CamMove.h">
+      <Filter>Core\SubLogic\EditCamera\State</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddlePoint.h">
+      <Filter>Core\SubLogic\EditCamera\LineDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSpriteLine.h">
+      <Filter>Core\SubLogic\EditCamera\LineDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSpriteListDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\NewMultiSpriteDlg\SubMultispriteDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureListDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\NewMultiSpriteDlg\SubMultispriteDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AniSpriteDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\NewMultiSpriteDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\AnimationDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSpriteModel.h">
+      <Filter>Core\SubLogic\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAniModel.h">
+      <Filter>Core\SubLogic\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureModel.h">
+      <Filter>Core\SubLogic\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterRen.h">
+      <Filter>Core\SubLogic\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="StatDlg.h">
+      <Filter>SubMFC\Dialog\Stat</Filter>
+    </ClInclude>
+    <ClInclude Include="MonStatDlg.h">
+      <Filter>SubMFC\Dialog\Stat</Filter>
+    </ClInclude>
+    <ClInclude Include="CharStatDlg.h">
+      <Filter>SubMFC\Dialog\Stat</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRenderer.h">
+      <Filter>Core\SubLogic\Parameter</Filter>
+    </ClInclude>
+    <ClInclude Include="Gauge.h">
+      <Filter>Core\SubLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBackGround.h">
+      <Filter>Core\SubLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="EditEffectMgr.h">
+      <Filter>Core\SubLogic\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EditEffect.h">
+      <Filter>Core\SubLogic\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\EffectDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\SkillDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionScriptDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\SkillDlg\ActionScriptDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillDataDlg.h">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\SkillDlg\SkillDataDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillSceneBuilder.h">
+      <Filter>Core\SceneBuilder\SkillScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillMgr.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBattleUnit.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="EditGlobalFunc.h">
+      <Filter>Core\GlobalValue</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBattleState.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMonReAction.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMonIdle.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMonAction.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Mon</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCharReAction.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCharIdle.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="EditCharAction.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="EditNumberUI.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\NumberUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDemageFont.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\NumberUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDemageFontGroup.h">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\NumberUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDlg.h">
+      <Filter>SubMFC\Dialog\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSceneBuilder.h">
+      <Filter>Core\SceneBuilder\StateScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSceneBuilder.h">
+      <Filter>Core\SceneBuilder\MapScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTile.h">
+      <Filter>Core\SubLogic\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTileMap.h">
+      <Filter>Core\SubLogic\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMapMgr.h">
+      <Filter>Core\SubLogic\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMapObject.h">
+      <Filter>Core\SubLogic\TileMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="FREditor.cpp">
+      <Filter>MFCStandard</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>MFCStandard</Filter>
+    </ClCompile>
+    <ClCompile Include="FixSpWnd.cpp">
+      <Filter>SubMFC\SplitterWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCoreBuilder.cpp">
+      <Filter>Core\CoreBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="DiView.cpp">
+      <Filter>SubMFC\View</Filter>
+    </ClCompile>
+    <ClCompile Include="DxView.cpp">
+      <Filter>SubMFC\View</Filter>
+    </ClCompile>
+    <ClCompile Include="RootDlg.cpp">
+      <Filter>SubMFC\Dialog\RootDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSpriteDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="EditGlobal.cpp">
+      <Filter>Core\GlobalValue</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationList.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\AnimationDlg\SubAnimationDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AniSpriteList.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\AnimationDlg\SubAnimationDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCameraMen.cpp">
+      <Filter>Core\SubLogic\EditCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCamState.cpp">
+      <Filter>Core\SubLogic\EditCamera\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CamMove.cpp">
+      <Filter>Core\SubLogic\EditCamera\State</Filter>
+    </ClCompile>
+    <ClCompile Include="CamWaiting.cpp">
+      <Filter>Core\SubLogic\EditCamera\State</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddlePoint.cpp">
+      <Filter>Core\SubLogic\EditCamera\LineDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSpriteLine.cpp">
+      <Filter>Core\SubLogic\EditCamera\LineDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSpriteListDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\NewMultiSpriteDlg\SubMultispriteDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureListDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\NewMultiSpriteDlg\SubMultispriteDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AniSpriteDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\NewMultiSpriteDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\AnimationDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSpriteModel.cpp">
+      <Filter>Core\SubLogic\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseAniModel.cpp">
+      <Filter>Core\SubLogic\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureModel.cpp">
+      <Filter>Core\SubLogic\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterRen.cpp">
+      <Filter>Core\SubLogic\Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="StatDlg.cpp">
+      <Filter>SubMFC\Dialog\Stat</Filter>
+    </ClCompile>
+    <ClCompile Include="MonStatDlg.cpp">
+      <Filter>SubMFC\Dialog\Stat</Filter>
+    </ClCompile>
+    <ClCompile Include="CharStatDlg.cpp">
+      <Filter>SubMFC\Dialog\Stat</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRenderer.cpp">
+      <Filter>Core\SubLogic\Parameter</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauge.cpp">
+      <Filter>Core\SubLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBackGround.cpp">
+      <Filter>Core\SubLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="EditEffectMgr.cpp">
+      <Filter>Core\SubLogic\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EditEffect.cpp">
+      <Filter>Core\SubLogic\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\EffectDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\SkillDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionScriptDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\SkillDlg\ActionScriptDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillDataDlg.cpp">
+      <Filter>SubMFC\Dialog\CharacterDlg\Sub\SkillDlg\SkillDataDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillSceneBuilder.cpp">
+      <Filter>Core\SceneBuilder\SkillScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillMgr.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBattleUnit.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="EditGlobalFunc.cpp">
+      <Filter>Core\GlobalValue</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBattleState.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMonReAction.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMonIdle.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMonAction.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Mon</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCharReAction.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCharIdle.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="EditCharAction.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\Unit\State\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDemageFont.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\NumberUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDemageFontGroup.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\NumberUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EditNumberUI.cpp">
+      <Filter>Core\SceneBuilder\SkillScene\Sub\NumberUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDlg.cpp">
+      <Filter>SubMFC\Dialog\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="StatSceneBuilder.cpp">
+      <Filter>Core\SceneBuilder\StateScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSceneBuilder.cpp">
+      <Filter>Core\SceneBuilder\MapScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditTileMap.cpp">
+      <Filter>Core\SubLogic\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="EditTile.cpp">
+      <Filter>Core\SubLogic\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMapMgr.cpp">
+      <Filter>Core\SubLogic\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMapObject.cpp">
+      <Filter>Core\SubLogic\TileMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FREditor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FREditor.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FREditor.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
